@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="비개발자가 만드는 깃허브 페이지"/>
+        <meta property="og:title" content="아무나 깃허브 페이지 만들기"/>
     
 
     <!--Open Graph Description-->
@@ -29,7 +29,7 @@
     
 
     <!--Open Graph Site Name-->
-    <meta property="og:site_name" content=""/>
+    <meta property="og:site_name" content="봉치공간"/>
 
     <!--Type page-->
     
@@ -44,13 +44,17 @@
 
     <!-- Title -->
     
-    <title>비개발자가 만드는 깃허브 페이지 - </title>
+    <title>아무나 깃허브 페이지 만들기 - 봉치공간</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/customizing.css">
+
+    <!-- Custom JS -->
+    <link rel="stylesheet" href="/js/customizing.js.css">
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -82,67 +86,67 @@
     <!-- Menu -->
     <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">보미</a>
-        </div>
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header page-scroll">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">봉치공간</a>
+		</div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                
-                    <li>
-                        <a href="/">
-                            
-                                Home
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/archives">
-                            
-                                Archives
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags">
-                            
-                                Tags
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/categories">
-                            
-                                Categories
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://bomee88.github.io/">
-                            
-                                <i class="fa fa-github fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				
+					<li>
+						<a href="/">
+							
+								Home
+							
+						</a>
+					</li>
+				
+					<li>
+						<a href="/archives">
+							
+								Archives
+							
+						</a>
+					</li>
+				
+					<li>
+						<a href="/tags">
+							
+								Tags
+							
+						</a>
+					</li>
+				
+					<li>
+						<a href="/categories">
+							
+								Categories
+							
+						</a>
+					</li>
+				
+					<li>
+						<a href="https://bomee88.github.io/">
+							
+								<i class="fa fa-github fa-stack-2x"></i>
+							
+						</a>
+					</li>
+				
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container -->
 </nav>
 
     <!-- Main Content -->
@@ -154,7 +158,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>비개발자가 만드는 깃허브 페이지</h1>
+                    <h1>아무나 깃허브 페이지 만들기</h1>
                     
                     <span class="meta">
                         <!-- Date and Author -->
@@ -196,14 +200,73 @@
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h1 id="깃허브페이지를-만들다"><a href="#깃허브페이지를-만들다" class="headerlink" title="깃허브페이지를 만들다."></a>깃허브페이지를 만들다.</h1><p>깃허브 페이지를 처음으로 만들었다.<br>정말 우여곡절 끝에 만들었다.<br>디자이너 출신에 퍼블을 배우기까지도 무진장 힘들었는데<br>깃허브 페이지 하나 만드는것도 그만큼(은 오바지만) 어려웠던거 같다.<br>이걸 과연 다른 웹디, 혹은 일반인(비개발자)가 할수있을까? ㅠㅠ<br>아무튼 이제 마크다운을 배우는 것만 남은 것 같구나.</p>
-<p>줄기차게 구글링을해서 알아낸 것들을 요점만 정리해보자.<br>아마 생각없이 이대로만 하면 비개발자분들도 기본페이지는 생성할 수 있을것이다(라고 희망해본다, 변수가 없기를 기원하며)</p>
-<h2 id="깃허브-가입하기"><a href="#깃허브-가입하기" class="headerlink" title="깃허브 가입하기"></a>깃허브 가입하기</h2><p><a href="https://github.com/" target="_blank" rel="noopener">깃허브</a>에 가입한다.</p>
+                <h1 id="깃허브페이지를-만들다"><a href="#깃허브페이지를-만들다" class="headerlink" title="깃허브페이지를 만들다."></a>깃허브페이지를 만들다.</h1><p>깃허브 페이지를 처음으로 만들었다.<br>정말 우여곡절 끝에 만들었다.<br>디자이너 출신에 퍼블을 배우기까지도 무진장 힘들었는데<br>깃허브 페이지 하나 만드는 것도 그만큼(은 오바지만) 어려웠던거 같다.<br>막상 만들려고 보니 나는 왜케 오류가 많이 나며..<br>깃은 뭐고, 노드는 뭐고, 또 깃허브랑 깃허브페이지는 또 뭔차이지??<br>이걸 과연 다른 웹디, 혹은 일반인(비개발자)가 할 수 있을까? 싶었다.<br>여러군데 구글링을 해보다 삽질 무진장하고 포기할때쯤 성공하게 되었다.<br>다른분들은 이런 삽질 없길 간절히 바라며..<br>웹개발언어 문맹들도 따라할 수 있게끔 친절히 정리해보려고 한다.</p>
+<hr>
+<p><br></p>
+<h2 id="들어가기전에"><a href="#들어가기전에" class="headerlink" title="들어가기전에.."></a>들어가기전에..</h2><p>일단 깃허브페이지를 만들고 hexo를 이용해서 테마를 설치 할 것이다.<br>그 이유를 주절주절 해보자면.. (넘어가셔도 좋음) </p>
 <blockquote>
-<p>아래의 내용을 잘 입력하여 가입하면 되고 이름은 하이픈이나 띄어쓰기 하지말란다. 메일주소는 나중에 인증해야 하기 때문에 유효한 것으로 적어야 한다. </p>
+<p>사실 나는 테마를 사용하지않고 블로그를 만들고 싶었는데 결국 테마를 쓰지 않을 수 없었다.<br>그 이유는 깃허브에서 include가 불가능해서였다. 회사에서 작업하는 환경은 asp기반이라 include가 가능해서 header와 footer, aside에 해당하는 부분들을 include로 관리하고있다.<br>그래서 당연히 github에서도 가능하겠지? 했는데 무식이 용감인가.. 구글링을 아무리 해봐도 자료는 없고, 결국 노가다로 테스트 여러번 해대가며 파일을 올렸다 내렸다 여러번 반복한 결과 불가능이라는걸 깨달았다.<br>결국 마크다운으로 작성하는 페이지 테마를 쓰기로하고 수소문한 결과 jekyll과 hexo가 대표적이길래 둘다 해봤다가 그냥 hexo로 가기로 했다. (사실 jekyll로 루비까지 설치하며 해보다가 뭐가 막혔는지 에러를 마구 뱉어내길래 포기함ㅜㅜ)<br>커스터마이징을 하기 위해서 hexo를 뜯어보며 공부하는 시간도 가졌는데 그 과정은 다음 포스팅에 서술하기로 한다.</p>
 </blockquote>
-<p><img src="img/20180405-1.jpg" alt="깃허브 가입하기"></p>
-<p>##마크다운 사용하기<br><a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" target="_blank" rel="noopener">마크다운 사용법 보러가기</a></p>
+<p>아래는 깃허브페이지를 만들기 위해 필요한 프로그램(?)을 우리가 알아야할 부분만 요약해봤다.</p>
+<ol>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a> : 간단히 말해 버전관리앱이라고 한다. 더 많은 설명은 구글링을 대신하고 우리는 여기서 git bash를 통해 까만창에 명령어들을 써댈것이다.</li>
+<li><a href="https://github.com/" target="_blank" rel="noopener">git hub</a> : 깃허브는 우리가 접속할 웹계정을 생성할 공간이다. 로컬에서 프로젝트를 작성하고 나의 깃허브웹에 업로드해 누구나 볼 수 있게 한다. </li>
+<li><a href="https://nodejs.org/ko/" target="_blank" rel="noopener">node.js</a> : 자바스트립트 런타임이라고 한다. 간단히 큰 오픈 소스 라이브러리라고 보면 될 것 같다. 일단 노드도 설치해야한다. 이걸 통해 hexo라는 깃허브페이지 테마를 설치 할 것이다.</li>
+<li><a href="https://hexo.io/ko/" target="_blank" rel="noopener">hexo</a> : 빠르고 간단하고 강력한 블로그 프레임워크라고 사이트에 자기소개하고있다. 지킬기반의 블로그 테마라고 보면 될 것 같다.</li>
+</ol>
+<p><br></p>
+<h2 id="1-깃허브-가입-및-레포지토리-생성하기"><a href="#1-깃허브-가입-및-레포지토리-생성하기" class="headerlink" title="1. 깃허브 가입 및 레포지토리 생성하기"></a>1. 깃허브 가입 및 레포지토리 생성하기</h2><p><a href="https://github.com/" target="_blank" rel="noopener">깃허브</a>에 가입한다.</p>
+<p><img src="/img/post/20180405-1.jpg" alt="깃허브 가입하기"></p>
+<blockquote>
+<p>빨간부분의 내용을 잘 입력하여 가입하면 되고 이름은 하이픈이나 띄어쓰기 하지말란다.<br>메일주소는 나중에 인증해야 하기 때문에 유효한 것으로 적어야 한다.</p>
+</blockquote>
+<p><br></p>
+<p><img src="/img/post/20180406-1.jpg" alt="레포지토리 생성하기"></p>
+<blockquote>
+<p>가입한 뒤에 빨간 표시 부분의 New repository를 클릭해서 새로운 레포지토리를 만든다.</p>
+</blockquote>
+<p><br></p>
+<p><img src="/img/post/20180406-2.jpg" alt="레포지토리 생성하기2"></p>
+<blockquote>
+<p>위 그림과 같이 레포지토리 이름은 “사용자아이디”.github.io 로 생성하고,<br>공개여부는 Public으로 선택한 뒤 아래 초록버튼 Create repository 버튼을 누른다.</p>
+</blockquote>
+<p><br></p>
+<h2 id="2-깃-설치하기"><a href="#2-깃-설치하기" class="headerlink" title="2. 깃 설치하기"></a>2. 깃 설치하기</h2><p><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">이 곳을 눌러 깃을 설치</a>한다.</p>
+<p><img src="/img/post/20180406-3.jpg" alt="깃 설치하기1"></p>
+<blockquote>
+<p>위 링크로 들어가 자신의 PC에 맞는 OS를 클릭하면 자동으로 다운로드 된다.</p>
+</blockquote>
+<p><br></p>
+<p><img src="/img/post/20180406-4.jpg" alt="깃 설치하기2"></p>
+<blockquote>
+<p>다운로드 후 실행시켜 Next를 열심히 눌러 설치한다.</p>
+</blockquote>
+<p><br></p>
+<h2 id="3-로컬과-깃허브-연결하기"><a href="#3-로컬과-깃허브-연결하기" class="headerlink" title="3. 로컬과 깃허브 연결하기"></a>3. 로컬과 깃허브 연결하기</h2><p>자 이제 내 PC와 깃허브 저장소를 연결해보자. 아까 열심히 설치한 git에서 git bash를 실행한다.<br>어딨냐고? 나두 한참 찾았다 ㅜㅜ</p>
+<p><img src="/img/post/20180406-5.jpg" alt="깃바쉬 열기"></p>
+<blockquote>
+<p>탐색기에서 git bash를 검색해서 열면 된다.</p>
+</blockquote>
+<p>이제 낯설기만한 까만창에 소심하게 한자한자 적어본다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;Your Name Here&quot;</span><br></pre></td></tr></table></figure>
+<p>스펠링 틀릴까봐 조마조마해서 복붙하고 싶었는데 안되더라.. (부끄) 앞에 “$”는 창에 달려있으므로 따로 안써줘도 되고 그 뒤부터 써내려가면 된다. Your Name Here에 가입할때 썼던 내 이름을 넣는다. </p>
+<p><img src="/img/post/20180406-6.jpg" alt="깃바쉬 열기"></p>
+<p>위와 같이 작성하면 된다. 근데 이게 잘 알아들은건지 뭔지 기분나쁘게 또 입력하라는 창만 나오고 반응이 없어? 싶을때는 아래와 같이 써볼수도 있다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>잘 알아들어먹었으면 내가 쓴 이름을 친절히 내뱉어준다.</p>
+</blockquote>
+<h2 id="포스트-작성하기"><a href="#포스트-작성하기" class="headerlink" title="포스트 작성하기"></a>포스트 작성하기</h2><p>포스트를 작성할때도 기본적인 html 상식정도는 알아야 가능한것같다.<br>나는 1.편집디자이너 -&gt; 2.비개발자(사무직) -&gt; 3.퍼블리셔를 밟아온 사람으로서<br>앞의 1, 2번 사람의 입장에서 생각 했을 때 이 모든 과정이 너무나도 귀찮을 것 같았다. 깃허브 페이지의 강점은 개발자로서 이것이 포트폴리오가 될수 있다는 점? 아무튼 그것도 개발자일때 얘기니까.. 난 영어섞인 지렁이 글씨가 너무 싫다 하시는 분들은 그냥 편하게 일반 에디터 달려있는 네이버나, 브런치 블로그를 사용하심을 추천한다.</p>
+<p>포스트 작성하는 방법도 원래는 마크다운만 있는 줄 알았는데 한 세가지는 되는 것 같다. 이 모든걸 굴리면서도 속도가 그럭저럭 괜찮다는게 신기할따름..</p>
+<blockquote>
+<p>포스트 작성 문법</p>
+<ol>
+<li>html 기본문법(마크업)</li>
+<li><a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" target="_blank" rel="noopener">마크다운</a></li>
+<li><a href="https://hexo.io/ko/docs/writing.html" target="_blank" rel="noopener">Hexo Writing</a>(hexo설치 시)</li>
+</ol>
+</blockquote>
+<p>html 기본문법은 퍼블리셔라면 대부분 알터이니 생략하고<br>마크다운과 hexo-writing사용법은 각 이름에 걸어둔 링크를 참조하도록 한다.<br>나는 세가지 방법중 마크업과 마크다운을 섞어서 사용하려고 한다.<br>퍼블리셔로서 blockquate의 디자인과 h1~6의 태그 글씨 크기들이 너무 맘에 안들지만 곧 커스터마이징하는 방법을 포스트하겠다.</p>
 
 
                 
@@ -226,37 +289,35 @@
 
 <!-- Footer -->
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<ul class="list-inline text-center">
+					
 
-                    
+					
 
-                    
-                        <li>
-                            <a href="https://bomee88.github.io/" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
+					
+						<li>
+							<a href="https://bomee88.github.io/" target="_blank">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</li>
+					
 
-                    
+					
 
-                    
+					
 
-                    
-                </ul>
-                <p class="copyright text-muted">&copy; 2018 봉치<br></p>
-                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
-            </div>
-        </div>
-    </div>
+					
+				</ul>
+				<p class="copyright text-muted">&copy; 2018 봉치</p>
+			</div>
+		</div>
+	</div>
 </footer>
 
 
