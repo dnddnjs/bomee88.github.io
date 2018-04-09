@@ -53,9 +53,6 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/customizing.css">
 
-    <!-- Custom JS -->
-    <link rel="stylesheet" href="/js/customizing.js.css">
-
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -85,122 +82,136 @@
 
     <!-- Menu -->
     <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-	<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="/">봉치공간</a>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				
-					<li>
-						<a href="/">
-							
-								Home
-							
-						</a>
-					</li>
-				
-					<li>
-						<a href="/archives">
-							
-								Archives
-							
-						</a>
-					</li>
-				
-					<li>
-						<a href="/tags">
-							
-								Tags
-							
-						</a>
-					</li>
-				
-					<li>
-						<a href="/categories">
-							
-								Categories
-							
-						</a>
-					</li>
-				
-					<li>
-						<a href="https://bomee88.github.io/">
-							
-								<i class="fa fa-github fa-stack-2x"></i>
-							
-						</a>
-					</li>
-				
-			</ul>
-		</div>
-		<!-- /.navbar-collapse -->
+<div class="custom-nav">
+	<div class="menu-icon">
+		<button>
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>			
+		</button>
 	</div>
-	<!-- /.container -->
-</nav>
+	<a class="logo" href="/">봉치공간</a>
+
+</div>	
+
+<div class="left-side" id="bs-example-navbar-collapse-1">
+	<button class="close">
+		<span class="bar"></span>
+		<span class="bar"></span>
+	</button>
+	<div class="intro">
+		<img src="/img/profile.jpg" alt="내사진">
+		<p><a href="mailto:bomee88@naver.com"><strong>@봉치</strong></a>Front-end개발, 웹기획, 웹디자인까지 호기심많은 UI개발자입니다.</p>
+	</div>
+	<ul>
+		
+			<li>
+				<a href="/">
+					
+						Home
+					
+				</a>
+			</li>
+		
+			<li>
+				<a href="/archives">
+					
+						Archives
+					
+				</a>
+			</li>
+		
+			<li>
+				<a href="/tags">
+					
+						Tags
+					
+				</a>
+			</li>
+		
+			<li>
+				<a href="/categories">
+					
+						Categories
+					
+				</a>
+			</li>
+		
+			<li>
+				<a href="https://bomee88.github.io/">
+					
+						<i class="fa fa-github fa-stack-2x"></i>
+					
+				</a>
+			</li>
+		
+	</ul>
+</div>
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+	$(window).load(function(){
+		$(".menu-icon").children("button").click(function(){
+			$(".left-side").addClass("on");
+		});
+		$(".left-side").children(".close").click(function(){
+			$(".left-side").removeClass("on");
+		});
+	});
+</script>
+
 
     <!-- Main Content -->
     <!-- Page Header -->
 <!-- Set your background image for this header in your post front-matter: cover -->
 
-<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>아무나 깃허브 페이지 만들기</h1>
-                    
-                    <span class="meta">
-                        <!-- Date and Author -->
-                        
-                        
-                            2018-04-05
-                        
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
+<header class="intro-header" style="background-image: url('/img/main-bg.svg')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="post-heading">
+					<h1>아무나 깃허브 페이지 만들기</h1>
+					
+					<span class="meta">
+						<!-- Date and Author -->
+						
+						
+							2018-04-05
+						
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
 
 <!-- Post Content -->
 <article>
-    <div class="container">
-        <div class="row">
+	<div class="container">
+		<div class="row">
 
-            <!-- Tags and categories -->
-           
-                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
-                    
-                        
-
-
-<a href="/tags/github/">#github</a> <a href="/tags/git/">#git</a> <a href="/tags/github-page/">#github_page</a>
+			<!-- Tags and categories -->
+		   
+				<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+					
+						
 
 
-                    
-                </div>
-                <div class="col-lg-4 col-md-5 post-categories">
-                    
-                </div>
-            
+<a href="/tags/github/">#github</a> <a href="/tags/github-page/">#github_page</a> <a href="/tags/git/">#git</a>
 
-            <!-- Gallery -->
-            
 
-            <!-- Post Main Content -->
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h1 id="깃허브페이지를-만들다"><a href="#깃허브페이지를-만들다" class="headerlink" title="깃허브페이지를 만들다."></a>깃허브페이지를 만들다.</h1><p>깃허브 페이지를 처음으로 만들었다.<br>정말 우여곡절 끝에 만들었다.<br>디자이너 출신에 퍼블을 배우기까지도 무진장 힘들었는데<br>깃허브 페이지 하나 만드는 것도 그만큼(은 오바지만) 어려웠던거 같다.<br>막상 만들려고 보니 나는 왜케 오류가 많이 나며..<br>깃은 뭐고, 노드는 뭐고, 또 깃허브랑 깃허브페이지는 또 뭔차이지??<br>이걸 과연 다른 웹디, 혹은 일반인(비개발자)가 할 수 있을까? 싶었다.<br>여러군데 구글링을 해보다 삽질 무진장하고 포기할때쯤 성공하게 되었다.<br>다른분들은 이런 삽질 없길 간절히 바라며..<br>웹개발언어 문맹들도 따라할 수 있게끔 친절히 정리해보려고 한다.</p>
+					
+				</div>
+				<div class="col-lg-4 col-md-5 post-categories">
+					
+				</div>
+			
+
+			<!-- Gallery -->
+			
+
+			<!-- Post Main Content -->
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<h1 id="깃허브페이지를-만들다"><a href="#깃허브페이지를-만들다" class="headerlink" title="깃허브페이지를 만들다."></a>깃허브페이지를 만들다.</h1><p>깃허브 페이지를 처음으로 만들었다.<br>정말 우여곡절 끝에 만들었다.<br>디자이너 출신에 퍼블을 배우기까지도 무진장 힘들었는데<br>깃허브 페이지 하나 만드는 것도 그만큼(은 오바지만) 어려웠던거 같다.<br>막상 만들려고 보니 나는 왜케 오류가 많이 나며..<br>깃은 뭐고, 노드는 뭐고, 또 깃허브랑 깃허브페이지는 또 뭔차이지??<br>이걸 과연 다른 웹디, 혹은 일반인(비개발자)가 할 수 있을까? 싶었다.<br>여러군데 구글링을 해보다 삽질 무진장하고 포기할때쯤 성공하게 되었다.<br>다른분들은 이런 삽질 없길 간절히 바라며..<br>웹개발언어 문맹들도 따라할 수 있게끔 친절히 정리해보려고 한다.</p>
 <hr>
 <p><br></p>
 <h2 id="들어가기전에"><a href="#들어가기전에" class="headerlink" title="들어가기전에.."></a>들어가기전에..</h2><p>일단 깃허브페이지를 만들고 hexo를 이용해서 테마를 설치 할 것이다.<br>그 이유를 주절주절 해보자면.. (넘어가셔도 좋음) </p>
@@ -269,20 +280,51 @@
 <p>html 기본문법은 퍼블리셔라면 대부분 알터이니 생략하고<br>마크다운과 hexo-writing사용법은 각 이름에 걸어둔 링크를 참조하도록 한다.<br>나는 세가지 방법중 마크업과 마크다운을 섞어서 사용하려고 한다.<br>퍼블리셔로서 blockquate의 디자인과 h1~6의 태그 글씨 크기들이 너무 맘에 안들지만 곧 커스터마이징하는 방법을 포스트하겠다.</p>
 
 
-                
-            </div>
+				
+			</div>
 
-            <!-- Comments -->
-            
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    
-
-
-                </div>
-            
-        </div>
+			<!-- Comments -->
+			
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+					
+    <hr />
+    <h3>Comments:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
+
+
+
+				</div>
+			
+		</div>
+	</div>
 </article>
+
+<!-- S 디스쿼스 추가함 2018.04.09 보미-->
+<div id="disqus_thread"></div>
+<script>
+	
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://bomee88.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<!-- E 디스쿼스 추가함 2018.04.09 보미-->
 
     <!-- Footer -->
     <hr />
@@ -311,6 +353,15 @@
 					
 
 					
+						<li>
+							<a href="mailto:bomee88@naver.com" target="_blank">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</li>
+					
 
 					
 				</ul>
@@ -332,8 +383,24 @@
 <!-- Gallery -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
-<!-- Disqus Comments -->
+<!-- Disqus Comments //디스쿼스 새로운 js삽입 2018.04.09 보미-->
+<script id="dsq-count-scr" src="//bomee88.disqus.com/count.js" async></script>
 
+                          
+<!-- //기존 디스쿼스 구동안됨으로 주석처리 2018.04.09 보미
+
+<script type="text/javascript">
+    var disqus_shortname = 'bomee88';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+ -->
 
 
 </body>
