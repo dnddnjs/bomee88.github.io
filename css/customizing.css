@@ -59,3 +59,7 @@ article img{border: 1px solid #efefef;}
 .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading{padding: 150px 0 100px; }
 .intro-header .post-heading h1{font-size: 36px; text-align: center;}
 .intro-header .post-heading .meta{font-style: normal; font-family: "noto sans"; font-size: 16px; text-align: right;}
+
+
+/* Disqus */
+.disqus-footer__wrapper{display: none!important;}
