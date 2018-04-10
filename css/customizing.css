@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 
@@ -25,7 +27,8 @@ article img{border: 1px solid #efefef;}
 
 
 /* nav */
-.custom-nav{position: fixed; width: 100%; background: #fff; border-bottom: 1px solid #e1e1e1; z-index: 100; box-shadow: 1px 1px 3px rgba(0,0,0,0.1)}
+.custom-nav{position: fixed; width: 100%; background: rgba(255,255,255,0.7); border-bottom: 1px solid #e1e1e1; z-index: 100; box-shadow: 1px 1px 3px rgba(0,0,0,0.1)}
+
 .custom-nav .logo{transition:0.2s all; background: url(/img/logo.svg) 0 0 no-repeat; background-size: 60px; text-indent: -9999em; display: block; width: 70px; height: 50px; margin: 5px auto 0px;}
 .custom-nav .logo:hover{transform: rotate(-3deg)}
 
@@ -56,10 +59,8 @@ article img{border: 1px solid #efefef;}
 
 
 /* header */
-.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading{padding: 150px 0 100px; }
+.intro-header{background-attachment: fixed; background-size: cover;}
+.intro-header>div.container{background: rgba(0,0,0,0.34); margin: 0; width: 100%;}
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading{padding: 200px 0 150px; }
 .intro-header .post-heading h1{font-size: 36px; text-align: center;}
 .intro-header .post-heading .meta{font-style: normal; font-family: "noto sans"; font-size: 16px; text-align: right;}
-
-
-/* Disqus */
-.disqus-footer__wrapper{display: none!important;}
