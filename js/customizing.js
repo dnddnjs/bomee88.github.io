@@ -42,7 +42,6 @@ setInterval(function() {
 function hasScrolled() {
     var st = $(this).scrollTop();
     
-    console.log(st);
     if(st <= 0){
     	$(".custom-nav").addClass("top");
     }else{

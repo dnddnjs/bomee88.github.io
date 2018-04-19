@@ -12,11 +12,11 @@
 
 /* 포스트 내부 */
 
-article h1{font-weight: 600; font-size: 24px;}
-article h2{font-weight: 600; font-size: 20px;}
-article h3{font-weight: 500; font-size: 18px;}
-article h4, article h5, article h6{font-weight: 500; font-size: 16px;}
-article div,article p{font-size: 16px; line-height: 1.8em; color: #333;}
+article h1{font-weight: 300; font-size: 24px;}
+article h2{font-weight: 300; font-size: 20px;}
+article h3{font-weight: 300; font-size: 18px;}
+article h4, article h5, article h6{font-weight: 300; font-size: 15px;}
+article div,article p{font-size: 15px; line-height: 1.8em; color: #666;}
 article .container .row blockquote,
 article .container .row blockquote p{font-style: normal; font-size: 15px; text-align: left; line-height: 1.6em; color: #666;} 
 article .container .row blockquote{padding: 0 20px 10px;}   
@@ -24,7 +24,12 @@ article ul,
 article ol{font-size: inherit; color: inherit; background: #f6f8fa; padding: 20px; padding-left: 40px; box-sizing: border-box;}
 article li{font-size: inherit; color: inherit; margin-bottom: 10px; margin-top: 10px;}
 article img{border: 1px solid #efefef;}
+.post-categories{text-align: right;}
+.post-categories a{margin-right: 0; border: 0; text-decoration: underline;}
+.post-categories:after{content: ">"; color: #999; margin-right: 15px;}
 
+.post-tags a{background: #337ab787; padding: 3px 10px; border-radius: 15px; color: #fff; transition: 0.2s all}
+.post-tags a:hover{background: #337ab7cc;}
 
 /* nav */
 .custom-nav{position: fixed; width: 100%; background: rgba(255,255,255,0.7); border-bottom: 1px solid #e1e1e1; z-index: 100; box-shadow: 1px 1px 3px rgba(0,0,0,0.1)}
@@ -62,5 +67,5 @@ article img{border: 1px solid #efefef;}
 .intro-header{background-attachment: fixed; background-size: cover;}
 .intro-header>div.container{background: rgba(0,0,0,0.34); margin: 0; width: 100%;}
 .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading{padding: 200px 0 150px; }
-.intro-header .post-heading h1{font-size: 36px; text-align: center;}
+.intro-header .post-heading h1{font-size: 30px; text-align: center; font-weight: 300}
 .intro-header .post-heading .meta{font-style: normal; font-family: "noto sans"; font-size: 16px; text-align: right;}
