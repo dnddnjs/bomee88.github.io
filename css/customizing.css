@@ -28,13 +28,12 @@ figure.highlight pre{letter-spacing: 0.5px; font-weight: 400;}
 .post-categories{text-align: right;}
 .post-categories a{margin-right: 0; border: 0; text-decoration: underline;}
 .post-categories:after{content: ">"; color: #999; margin-right: 15px;}
-
-.post-tags a{background: #337ab787; padding: 3px 10px; border-radius: 15px; color: #fff; transition: 0.2s all}
+.post-tags a{background: #337ab787; padding: 3px 10px; border-radius: 15px; color: #fff; transition: 0.2s all; display: inline-block; line-height: 2em; border:0; font-size: 14px; margin-right:5px;}
 .post-tags a:hover{background: #337ab7cc;}
+.no-border{border:0;}
 
 /* nav */
 .custom-nav{position: fixed; width: 100%; background: rgba(255,255,255,0.7); border-bottom: 1px solid #e1e1e1; z-index: 100; box-shadow: 1px 1px 3px rgba(0,0,0,0.1)}
-
 .custom-nav .logo{transition:0.2s all; background: url(/img/logo.svg) 0 0 no-repeat; background-size: 60px; text-indent: -9999em; display: block; width: 70px; height: 50px; margin: 5px auto 0px;}
 .custom-nav .logo:hover{transform: rotate(-3deg)}
 
